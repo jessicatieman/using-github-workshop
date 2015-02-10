@@ -1,1 +1,5 @@
 tutorial/_site
+slides/node_modules/
+slides/.sass-cache
+slides/css/reveal.min.css
+slides/js/reveal.min.js
