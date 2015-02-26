@@ -10,5 +10,6 @@
   background: transparent;
   position: fixed;
   left: -15%;
-  top: 0;
+  top: 10%;
+  border: 0;
 }
