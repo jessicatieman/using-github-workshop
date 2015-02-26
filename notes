@@ -1,0 +1,50 @@
+1. create github username
+2. create username.github.io repo at the beginning
+3. search for a repo
+4. star a repo
+5. watch a repo
+6. fork a repo
+7. personal starter blog via jekyll
+  . upload the required directory structure
+    . _layouts/
+    . _includes/
+    . _config.yml
+    . _posts/
+    . css/
+    . index.html
+
+
+* need to have everyone take a picture of themselves, then crop the image in a square *
+
+  . FOR THIS I NEED TO CREAT A STARTER JEKYLL THEME FOR ATTENDEES TO USE
+
+
+
+Wanted examples:
+- using github for literature development
+- 
+
+GitHub apps for mac, windows
+
+
+
+GitHub further support
+- OReilly Book on GitHub
+- video on showing how to manage pull requests and collaborate
+- GitHub documentation
+
+
+http://www.brookings.edu/blogs/techtank/posts/2014/12/16-github-government-use-longo
+Why GitHub is the Future
+
+What distinguishes GitHub are its built-in social networking functions, back-end data capture and on-board reporting, and the principles of distributed version control and openness owing to the underlying Git architecture. It’s easy to tag a username in an issue or comment, and profile pages provide details on a user’s activity, allowing users to evaluate each other’s reputations and build a community of collaborators. Beyond the idea of social coding, the data capture and reporting features along with the open nature of distributed version control are the most exciting features of GitHub.
+
+
+
+
+Title slide
+
+
+first there is git, then there is github
+
+

@@ -1,0 +1,14 @@
+.reveal {
+  font-family: 'Merriweather', serif;
+  font-size: 38px;
+  font-weight: normal;
+  color: #fff; }
+
+.reveal .badge {
+  width: 300px;
+  border: none;
+  background: transparent;
+  position: fixed;
+  left: -25%;
+  top: 0;
+}

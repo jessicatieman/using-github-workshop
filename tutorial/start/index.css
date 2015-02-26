@@ -10,7 +10,7 @@ html {
   font-size: 16px;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 40em) {
   html {
     font-size: 20px;
   }
@@ -18,41 +18,64 @@ html {
 
 html,
 body {
-  
+  min-height: 100vh;
 }
 
 body {
   margin: 0;
-  font: 1rem/1.5 "Open Sans", sans-serif;
+  font: 1rem/1.5 "Meriweather", "Georgia", serif;
   color: #333;
 }
 
+.tree {
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  width: 5%;
+}
+
+
 .container {
-  max-width: 60rem;
-  margin: 2rem auto;
-  padding: 2rem;
-  border-radius: 4px;
-  box-shadow: 1px 1px 1px 1px #aaa;
-  background-color: white;
+  max-width: 60em;
 }
 
-h1 {
-  font-size: 3rem;
+.top-3 { top: 3rem; }
+.top-5 { top: 5rem; }
+.top-10 { top: 10rem; }
+
+.media {
+  display: flex;
+  align-items: flex-start;
 }
 
-.icon-wrapper {
-  width: 75%;
-  margin: 0 auto;
+.media-figure {
+  margin-right: 1rem;
 }
 
-.block-link {
-  text-decoration: none;
+.media-text {
+  flex: 1;
 }
 
-.block-link:hover {
-  text-decoration: none;
-  box-shadow: 0px 0px 0px 2px #FFF, 0px 0px 0px 4px rgba(0, 137, 255, 0.5);
+.media--center {
+  align-items: center;
 }
+
+.media--bottom {
+  align-items: flex-end;
+}
+
+
+.lato { font-family: 'Lato'; }
+.merriweather { font-family: 'Merriweather'; }
+
+.thin { font-weight: 300; }
+
+
+
+
+
+
+
 
 /*
  * Basscss Flex Object
@@ -190,4 +213,58 @@ h1 {
   .lg-flex > div {
     box-sizing: border-box;
   }
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
+
+.border-1 {
+  border-width: .5rem;
+}
+
+.border-bottom-1 {
+  border-bottom-width: .25rem;
+}
+
+.pl1 {
+  padding-left: .5rem;
+}
+
+.pl2 {
+  padding-left: 1rem;
+}
+
+.pb2 {
+  padding-bottom: 1rem;
+}
+
+.pr2 { padding-right: 1rem; }
+
+.pr0 { padding-right: 0; }
+
+
+.twitterblue:hover { background-color: #55ACEE; }
+
+.githubyellow:hover { background-color: rgb(250,235,185); }
+
+.twitterblue:hover { color: white;}
+
+.body-text-color { color: #333; }
+
+.no-decoration,
+.no-decoration:hover { text-decoration: none; }
+
+#about h1 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  font-family: "Merriweather";
 }
