@@ -20,6 +20,22 @@
 
 
 
+Where else do we find version control?
+
+ctrl + z / undo
+wikipedia page histories
+Track changes in:
+  - MS Word
+  - Google Docs
+  - lots more!
+
+Resources to learn technical details about Git
+<a href="http://git-scm.com/">Git source</a>
+<a href="https://en.wikipedia.org/wiki/Git_%28software%29">Git on Wikipedia</a>
+<a href="https://www.kernel.org/pub/software/scm/git/docs/gitglossary.html">Git glossary of terms</a>
+
+
+
 Wanted examples:
 - using github for literature development
 - 
