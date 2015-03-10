@@ -1,11 +1,11 @@
 .reveal {
-  font-family: 'Merriweather', Georgia, serif;
+  font-family: "Merriweather", Georgia, serif;
   font-size: 38px;
   font-weight: normal;
   color: #fff; }
 
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
-  font-family: 'Merriweather', Georgia, serif;
+  font-family: "Merriweather", Georgia, serif;
 }
 
 .reveal .badge {
