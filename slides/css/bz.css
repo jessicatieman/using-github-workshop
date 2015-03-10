@@ -14,7 +14,44 @@
   background: transparent;
   position: fixed;
   left: -15%;
-  top: 10%;
+  top: 19%;
+  border: 0;
+  box-shadow: none;
+}
+
+.reveal .git1 {
+  background: none;
+  border: none;
+  box-shadow: none;
+  display: inline-block;
+  width: 30%;
+  margin-bottom: -2%;
+}
+
+.reveal .git2 {
+  background: none;
+  border: none;
+  box-shadow: none;
+  display: inline-block;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reveal .git3 {
+  background: none;
+  border: none;
+  box-shadow: none;
+  display: inline-block;
+  width: 20%;
+  margin-bottom: -2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reveal .gh {
+  border: none;
+  background: transparent;
   border: 0;
   box-shadow: none;
 }

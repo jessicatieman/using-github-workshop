@@ -15,6 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
 		<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet'>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css" id="theme">
 		<link href="css/bz.css" rel="stylesheet">
@@ -45,9 +46,8 @@
 				<section>
 					<img src="img/SRbadge.png" class="badge" alt="">
 					<h1>Using GitHub for Scholarly Publishing &amp; Collaboration</h1>
+					<p>Brian Zelip</a> / <a href="http://twitter.com/bzelip">@bzelip</a><br>Graduate Assistant, <a href="http://library.illinois.edu/sc">Scholarly Commons</a></p>
 					<p><a href="http://scholarlycommons.github.io/using-github-workshop/">ScholarlyCommons.github.io/using-github-workshop/</a></p>
-					<p>Brian Zelip</a> / <a href="http://twitter.com/bzelip">@bzelip</a></p>
-					<p>Graduate Assistant, <a href="http://library.illinois.edu/sc">Scholarly Commons</a></p>
 				</section>
 
 				<section>
@@ -61,39 +61,151 @@
 				</section>
 
 				<section>
-					<h2>Resources to learn more about Git</h2>
-					<ul>
-						<li><a href="http://git-scm.com/">Git source</a></li>
-						<li><a href="https://en.wikipedia.org/wiki/Git_%28software%29">Git on Wikipedia</a></li>
-						<li><a href="https://www.kernel.org/pub/software/scm/git/docs/gitglossary.html">Git glossary of terms</a></li>
-					</ul>
+
+					<section>
+						<h1>The <img src="img/Git-Logo-Orange.png" class="git1" alt=""><br>in GitHub</h1>
+					</section>
+
+					<section>
+						<img src="img/Git-Logo-Orange.png" class="git2" alt="">
+						<ul>
+							<li>git is a distributed version control system</li>
+							<li>created in 2005 by Linus Torvalds, the namesake of the free operating system commonly known as Linux</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2><u>Distributed</u> version control system?</h2>
+						<p>Distributed means...</p>
+						<p>everyone working with a project in git has a copy of the full history of the project, not just the current state of the files.</p>
+					</section>
+
+					<section>
+						<h2>Distributed <u>version control system</u>?</h2>
+						<p>Version control system means...</p>
+						<p>software designed to keep track of the changes made to files over time.</p>
+					</section>
+
+					<section>
+						<h2>Version control systems you've already used</h2>
+						<ul>
+							<li>The keyboard combo <code>ctrl+z</code> (undo)</li>
+							<li>MS Word</li>
+							<li>Google Docs</li>
+							<li>and more...</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Distributed version control systems you've already used</h2>
+						<ul>
+							<li>Sharing MS Word files with others with "Track changes" enabled</li>
+							<li>Sharing Google Docs with others</li>
+							<li>Wikipedia page histories</li>
+							<li>and more...</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Key &nbsp; <img src="img/Git-Logo-Orange.png" class="git3" alt=""> &nbsp; concepts</h2>
+						<ul>
+							<li>Repository</li>
+							<li>Commit</li>
+							<li>Commit message</li>
+							<li>Branch</li>
+							<li>Pull request</li>
+							<li>Merge</li>
+							<li>Clone or fork</li>
+							<li>Issue</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Resources to learn more about Git</h2>
+						<ul>
+							<li><a href="http://git-scm.com/">Git (source)</a></li>
+							<li><a href="https://en.wikipedia.org/wiki/Git_%28software%29">Git on Wikipedia</a></li>
+							<li><a href="https://www.kernel.org/pub/software/scm/git/docs/gitglossary.html">Git glossary of terms</a></li>
+						</ul>
+					</section>
+
+				</section>
+				
+				<section>
+					
+					<section>
+						<h1>GitHub</h1>
+						<img src="img/GitHub-Mark-Light-120px-plus.png" class="gh" alt="">
+					</section>
+
+					<section>
+						<h1>GitHub is...</h1>
+						<ul>
+							<li>A website where you can upload and work on git repositories</li>
+							<li>A social network and collaboration space to work with others with all of git's powers</li>
+							<li>A <a href="https://pages.github.com">place to host free websites</a> (like these slides)</li>
+							<li>A major place to get open source software and data like...</li>
+						</ul>
+					</section>
+
+					<section>
+						<h1>The variety of data on GitHub</h1>
+						<ol>
+							<li>Web design frameworks like <a href="https://github.com/twbs/bootstrap">Bootstrap</a> &amp; <a href="https://github.com/jxnblk/basscss">Basscss</a></li>
+							<li><a href="https://github.com/cran">R packages</a></li>
+							<li><a href="https://github.com/TheUpshot">Data behind NY Times analysis</a></li>
+							<li><a href="https://github.com/WhiteHouse/2016-budget-data">Obama's 2016 budget</a></li>
+							<li>Lots more!</li>
+						</ol>
+					</section>
+
+					<section>
+						<h1>Social on GitHub</h1>
+						<ul>
+							<li>Follow people</li>
+							<li>Favorite individual repositories</li>
+							<li>Wikis</li>
+							<li>Create issues and pull requests</li>
+							<li>Ask for (and receive!) help</li>
+							<li>Give feedback</li>
+							<li>Fork the hardwork of others</li>
+						</ul>
+					</section>
+
 				</section>
 
 				<section>
-					<h2>Major Git terms to know</h2>
-					<ul>
-						<li>Fork and Clone</li>
-						<li>Pull Request</li>
-						<li>Merge</li>
-					</ul>
+
+					<section>
+						<h1>Hands on with <a href="https://github.com">GitHub</a></h1>
+					</section>
+
+					<section>
+						<h2>We're going to</h2>
+						<p>Fork this workshop's <a href="https://github.com/ScholarlyCommons/using-github-workshop/tree/gh-pages/tutorial">tutorial repo</a>,</p>
+						<p>to make a mock personal academic site,</p>
+						<p>using GitHub's free hosting service called <a href="https://pages.github.com">GitHub Pages</a>,</p>
+						<p>making use of open source software called <a href="http://jekyllrb.com">Jekyll</a> that will build our static site dynamically!</p>
+					</section>
+
 				</section>
 
 				<section>
-					<h2>Let's fork/clone....</h2>
+					<h2>References for this workshop</h2>
 					<ul>
-						<li><a href="https://github.com/galoget/free-programming-books">Free Programming Books</a></li>
-						<li><a href="https://github.com/twbs/bootstrap">Bootstrap (popular web design library)</a></li>
-						<li><a href="https://github.com/WhiteHouse/2016-budget-data">White House 2016 budget data</a></li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Main resources for this workshop</h2>
-					<ul>
+						<li><a href="http://git-scm.com/">Git (source)</a></li>
 						<li><a href="https://help.github.com/">GitHub help</a></li>
 						<li><a href="https://pages.github.com/">GitHub Pages</a></li>
 						<li><a href="http://jekyllrb.com/">Jekyll (static website builder)</a></li>
 					</ul>
+				</section>
+
+				<section>
+					<h1><i class="fa fa-2x fa-angellist"></i></h1>
+					<h2>Feel free to contact me with further questions!<br><br></h2>
+					<h3>Brian Zelip</h3>
+					<h3>bzelip@illinois.edu</h3>
+					<h3>@bzelip</h3>
 				</section>
 
 			</div>
