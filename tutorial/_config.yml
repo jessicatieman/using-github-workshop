@@ -1,11 +1,11 @@
 # Site settings
-name: 
-email: 
-job_title: 
-institution: 
-institution_URL: 
-twitter_username: 
-github_username: 
+name: Jessica
+email: jtieman2@illinois.edu
+job_title: Grad student
+institution: UIUC
+institution_URL: http://www.illinois.edu
+twitter_username: jessicairene
+github_username: jtieman2
 
 # Build settings
 markdown: kramdown
